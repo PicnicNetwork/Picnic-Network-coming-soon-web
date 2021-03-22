@@ -375,6 +375,9 @@ textarea {
 .col-two, .col-1-6 {
 	width: 16.66667%;
 }
+.col-two-point-five, .col-1-6 {
+	width: 20%;
+}
 .col-three, .col-1-4 {
 	width: 25%;
 }
