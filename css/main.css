@@ -1433,7 +1433,8 @@ header .logo a {
     line-height: 1.267;
 }
 #info .tabs-wrap .tab-entry-intro p.lead {
-    color: rgba(17, 17, 17, 0.5);
+    /* color: rgba(17, 17, 17, 0.5); */
+	color:#333333;
 }
 #info .tabs-wrap .tab-entry-intro .with-bottom-line {
     position: relative;
