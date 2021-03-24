@@ -47,7 +47,7 @@ body {
     font-family: "Pacifico";
 }
 #team li {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
 }
 
 
@@ -55,14 +55,14 @@ body {
 #cta h1,
 #roadmap h1,
 #team h1 {
-    font-size: 6rem;
+    /* font-size: 6rem; */
     padding-bottom: 2rem;
     text-align: center;
 }
 
 #basket,
 #team {
-    padding: 6rem;
+    padding: 6rem 0;
 }
 
 .team {
@@ -349,9 +349,9 @@ ol,
 ul {
     margin-left: 1.7rem;
 }
-ul li {
+/* ul li {
     padding-left: 0.4rem;
-}
+} */
 ul ul,
 ul ol,
 ol ol,
@@ -1434,7 +1434,7 @@ header .logo a {
 }
 #info .tabs-wrap .tab-entry-intro p.lead {
     /* color: rgba(17, 17, 17, 0.5); */
-	color:#333333;
+    color: #333333;
 }
 #info .tabs-wrap .tab-entry-intro .with-bottom-line {
     position: relative;
@@ -1738,6 +1738,12 @@ header .logo a {
  * 11. cta - (_layout.scss)
  *
  * ------------------------------------------------------------------- */
+#pic-a,
+#pic-b {
+    width: 50%;
+    float: left;
+}
+
 #cta {
     background: #ffffff;
     padding-top: 9rem;
@@ -1801,6 +1807,13 @@ header .logo a {
     }
     .cta-wrap h2 {
         font-size: 2.7rem;
+    }
+}
+@media only screen and(max-width:400px) {
+    #pic-a,
+    #pic-b {
+        width: 100% !important;
+        float: none;
     }
 }
 
@@ -1997,6 +2010,6 @@ footer .back-to-top a i {
         width: 120px;
     }
     footer .back-to-top a {
-        padding: 1rem 2rem 1rem;
+        padding: 1rem 2rem;
     }
 }

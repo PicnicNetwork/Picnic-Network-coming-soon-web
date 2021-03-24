@@ -5,10 +5,7 @@
    text-align: center;
    /* padding-top:5rem; */
  }
- .roadmap h1{
-   font-size:9rem;
-   padding-bottom:2rem;
- }
+ 
 
   .flex-parent {
     display: flex;
@@ -112,7 +109,7 @@
   #timeline-descriptions-wrapper {
     width: 100%;
     margin-top: 10rem;
-    font-size: 22px;
+    font-size: 1.6rem;
     font-weight: 400;
     margin-left: calc((-80vw - 25px) / 20);
   }

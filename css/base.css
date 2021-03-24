@@ -519,9 +519,9 @@ textarea {
 	}
 
 	[class*="col-"] {
-		width: 100% !important;
-		float: none !important;
-		clear: both !important;
+		width: 100% ;
+		float: none ;
+		clear: both ;
 		margin-left: 0;
 		margin-right: 0;
 		padding: 0;
@@ -530,7 +530,12 @@ textarea {
 	[class*="col-"] + [class*="col-"].end {
 		float: none;
 	}
-
+	.col-two-point-five{
+		width:20% !important;
+		float:left !important;
+		clear:none !important;
+		padding:2px
+	}
 }
 
 
